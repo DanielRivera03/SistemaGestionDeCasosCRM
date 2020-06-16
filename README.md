@@ -5,8 +5,25 @@
 <h3>Aclaración Importante:</h3>
 <p>Sistema gestión de casos títulado <b>VTiger</b>, es de aclarar que este sistema se inspiró bajo el sistema propio y real de código abierto de dicha compañia y <b>NO</b> tiene ninguna relación directa con dicha compañia, fue desarrollado bajo fines académicos.</p>
 
+
+<h3>Tomar En Cuenta:</h3>
+
+<p>Todos los mantenimientos son a través de procedimientos almacenados desde la base de datos (incluídas las consultas), por lo cual dentro de todo el proyecto no existen sentencias de código SQL directamente aplicados, únicamente las llamadas de los procedimientos almacenados.</p>
+
+<p><b>* Captura código modelo -> usuarios empleados administrativos</b></p>
+
+
+![Codigo1](https://user-images.githubusercontent.com/44457989/84733532-b7dfbe80-af5b-11ea-96ba-cca955a6acc8.png)
+
+
+<p><b>* Captura código controlador -> usuarios administradores</b></p>
+
+
+![Codigo2](https://user-images.githubusercontent.com/44457989/84733706-3c324180-af5c-11ea-858d-1dcffef26d62.png)
+
+
 <h3>Descripción general:</h3>
-<p>Sistema diseñado e implementado capaz de resolver las necesidades básicas de un CRM estrictamente, con todos sus mantenimientos estrictamente funcionales. Cuenta con dos roles de usuarios los cuales son <b>Administradores y Empleados Administrativos</b> (Capaz de readecuarse e incluir más roles de ser necesario). Dicho sistema fue desarrollado bajo el <b>Modelo, Vista Controlador (MVC) con el lenguaje de programación PHP Puro</b>.<br><br>A continuación se detallan todos los procesos que se pueden realizar dentro de dicho sistema:</p>
+<p>Sistema diseñado e implementado capaz de resolver las necesidades básicas de un CRM estrictamente, con todos sus mantenimientos estrictamente funcionales. Cuenta con dos roles de usuarios los cuales son <b>Administradores y Empleados Administrativos</b> (Capaz de readecuarse e incluir más roles de ser necesario). Dicho sistema fue desarrollado bajo el patrón<b>Modelo Vista Controlador (MVC) con el lenguaje de programación PHP (Puro sin framework)</b>.<br><br>A continuación se detallan todos los procesos que se pueden realizar dentro de dicho sistema:</p>
 <ul>
   <li>Ingreso, consulta, modificar, eliminar y exportar <b>(Copiar,CSV,Excel,Imprimir)</b> usuarios administradores.</li>
   <li>Ingreso, consulta, modificar, eliminar y exportar <b>(Copiar,CSV,Excel,Imprimir)</b> usuarios empleados administrativos.</li>
